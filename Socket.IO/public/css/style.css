@@ -1,0 +1,64 @@
+body { 
+  background: url(../img/back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      font-family: 'Montserrat', sans-serif;
+}
+.message-name{
+    font-weight: bold;
+    color: #428BCA;
+}
+.message-blue{
+    background-color: #D9EDF7 !important;
+}
+.message{
+    cursor: pointer;
+}
+.message-time{
+    font-weight: bold;
+    float: right;
+    margin-top: -20px;
+    font-style: italic;
+}
+#inf{
+    height: 100px;
+    font-size: 24px;
+}
+.message-body{
+    max-width: calc(100% - 70px);
+}
+.list-group-item{
+    border-radius: 0px !important;
+}
+.stat-on{
+    color: green;
+    font-style: italic;
+}
+.stat-ja{
+    color: lightblue;
+    font-style: italic;
+}
+.stat-off{
+    color: indianred;
+    font-style: italic;
+}
+.user{
+    cursor: pointer;
+    font-size: 11px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel-body{
+    overflow-y: scroll;
+    height: 80vh;
+}
+#typing{
+ color: gray;
+ margin-top: 15px;
+ margin-left: 5px;
+}

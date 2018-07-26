@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>My Chat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="alert alert-success" id="inf">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+          <h4 class="modal-title">Login</h4>
+        </div>
+ <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name" class="form-control-label">Name:</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="nickname" class="form-control-label">Nickname:</label>
+            <input class="form-control" id="nickname"></input>
+          </div>
+        </form>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center" style="color: #428BCA">My Chat</h1><br/>
+            <div class="col-md-8">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        CHAT
+                    </div>
+                    <div class="panel-body">
+                        <ul id="messages" class="list-group">
+
+
+
+
+
+
+
+
+
+                            <!--
+                            <li class="message list-group-item">
+                                <p class="message-name">Alex Deo</p>
+                                <div class="message-body">
+
+                                    Donec sit amet ligula enim. Duis vel condimentum massa. Donec sit amet ligula enim. Duis vel condimentum massa.Donec sit
+                                    amet ligula enim. Duis vel condimentum massa. Donec sit amet ligula enim. Duis vel condimentum
+                                    massa.
+
+                                </div>
+                            </li>
+
+
+
+
+
+
+                            <li class="message list-group-item">
+                                <p class="message-name">Roman Vey</p>
+                                <div class="message-body">
+
+                                    Donec sit amet ligula enim. Duis vel condimentum massa. Donec sit amet ligula enim. Duis vel condimentum massa.Donec sit
+                                    amet ligula enim. Duis vel condimentum massa. Donec sit amet ligula enim. Duis vel condimentum
+                                    massa.
+
+                                </div>
+                            </li>
+                            -->
+
+
+
+
+
+
+
+
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter Message" id="msg-data"/>
+                            <span class="input-group-btn">
+                                        <button class="btn btn-info" type="button" id="send">SEND</button>
+                                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        ONLINE USERS
+                    </div>
+                    <div class="panel-body">
+                        <ul id="users" class="list-group">
+
+
+
+
+
+
+                            <!--
+                            <li class="user list-group-item">
+                                <div>Alex Deo</div>
+                                <div class="stat-ra">Just appeared</div>
+                            </li>
+
+
+
+
+                            <li class="user list-group-item">
+                                <div>Roman Vey</div>
+                                <div class="stat-off">Offline</div>
+                            </li>
+                            -->
+
+
+
+
+
+
+
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
